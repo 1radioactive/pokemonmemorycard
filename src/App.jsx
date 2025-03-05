@@ -73,7 +73,7 @@ function App() {
       <div style={{ display: "flex", gap: "20px", flexWrap: "wrap", justifyContent:"space-evenly" }}>
                 {shuffledPokemons.map((pokemon) => (
                     pokemonImgs[pokemon] ? (
-                      <div name={pokemon} key={pokemon} onClick={scoreCounter} style={{cursor:"pointer", display:"flex", flexDirection:"column", backgroundColor:"whitesmoke",  border: "1px offset red"}}>
+                      <div name={pokemon} key={pokemon} onClick={scoreCounter} style={{cursor:"pointer", display:"flex", flexDirection:"column", backgroundColor:"grey",  border: "1px offset red"}}>
                         <img src={pokemonImgs[pokemon]} alt={pokemon} style={{ width: "250px"}} />
                         <h2 >{pokemon}</h2>
                       </div>
